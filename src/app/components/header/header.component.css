@@ -1,0 +1,22 @@
+.header { 
+    background-color: red;
+    text-align: center;
+} 
+    .lawyer { 
+        animation-name: lawyer;
+        animation-duration: 1;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes lawyer { 
+    0% {font-family: monospace; font-style: normal;}
+    50% {font-family: monospace; font-style: italic; text-shadow: 1em;}
+    65% {font-family: monospace; font-style: normal;} 
+    85% {font-family: monospace; font-style: italic;}
+    100% {font-family: monospace; font-style: normal;} 
+}
+
+#header-img {
+    max-width: 100px; 
+    max-height: 100px; 
+}
